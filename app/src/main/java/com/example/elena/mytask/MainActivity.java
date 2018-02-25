@@ -55,6 +55,7 @@ public class MainActivity extends SingleFragmentActivity {
         }
     }
 
+    // Код для показа уведомления
     private void showMessage(@StringRes int resId) {
         Toast.makeText(this, resId, Toast.LENGTH_SHORT).show();
     }
