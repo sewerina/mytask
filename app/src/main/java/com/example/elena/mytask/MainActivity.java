@@ -16,6 +16,7 @@ public class MainActivity extends SingleFragmentActivity {
         return new MainFragment();
     }
 
+    // Код для меню
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
@@ -23,6 +24,7 @@ public class MainActivity extends SingleFragmentActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    // Код для выбора элемента меню
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
