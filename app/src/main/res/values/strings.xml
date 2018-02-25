@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Task</string>
+    <string name="settings">Настройки</string>
+    <string name="search">Поиск</string>
+    <string name="exit">Выход</string>
+    <string name="welcome">Welcome!</string>
+    <string name="google">Google</string>
+    <string name="yandex">Яндекс</string>
+    <string name="bing">Bing</string>
+    <string name="hint">Введите ключевое слово</string>
+</resources>
